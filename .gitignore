@@ -1,0 +1,24 @@
+# generated artifacts
+outputs/
+*.png
+*.pptx
+*.pdf
+
+# presentation / video tooling (kept local, not part of the code deliverable)
+build_pptx.py
+make_videos.py
+make_real_video.py
+make_figs.py
+SPEECH.md
+
+# the dataset / hardware stack (not redistributed here)
+Emotions_Walk_College_de_France/
+*.anm
+*.dat
+*.trc
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
